@@ -1,0 +1,61 @@
+.taskPage-layout {
+    top: 0;
+    width: 100vw;
+    height: 85vh;
+    padding: 5%;
+    box-sizing: border-box;
+    background-color:rgba(211, 211, 211,0.2);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+}
+
+.tasks-box{
+    width: 60vw;
+    height: 60vh;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+}
+.task-time{
+    height: 60vh;
+    display: flex;
+    flex-flow: column;
+    margin-right: 2vw;
+    justify-content: space-evenly;
+   font-size: 1rem;
+   font-weight: 700;
+}
+.task-chart{
+    display: flex;
+}
+
+.time-based-tasks{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: (60/9)vh;
+}
+.addTask-btn{
+    align-self: flex-end;
+    border-radius: 24px;
+    border: 3px solid blueviolet;
+    padding: 1%;
+    font-size: 1.5vw;
+    background-color: rgb(191, 151, 228);
+}
+.task-plus{
+    font-size: 1.5vw;
+    font-weight: 700;
+    text-align: center;
+}
+.time-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: (60/9)vh;
+}

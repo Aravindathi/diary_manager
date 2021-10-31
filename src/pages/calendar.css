@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.calendar-box {
+  width: 100vw;
+  height: 85vh;
+  text-align: center;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.calendar-box::before{
+    content: "";
+    background-image: url("./bg.jpg");
+    background-size: 100vw 85vh;
+    opacity: 0.1;
+    width: 100vw;
+    height: 85vh;
+    position: absolute;
+    
+}
+.calendar {
+  width: 50%;
+  height: 60%;
+  border-spacing: 0px;
+  box-sizing: border-box;
+  opacity: 1;
+  border-bottom: 8px solid black;
+  position: relative;
+  /* border-radius: 24px; */
+}
+
+th {
+  border: 2px solid;
+  background-color: rgb(199, 167, 230);
+  font-variant: small-caps;
+  width: 10vw;
+  border-radius: 06px;
+}
+td {
+  font-size: 1rem;
+  font-weight: 1000;
+  width: 6vw;
+  color: chocolate;
+ 
+}
+
+
+.dates:hover {
+  transform: scale(2);
+}
+
+.today {
+  color: black;
+  font-size: 1.5rem;
+}
+.month-navigator {
+  background-color: gainsboro;
+  border-top: 2px solid black;
+  margin: 0;
+  border-spacing: 0px;
+}

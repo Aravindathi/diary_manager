@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.signup-bg {
+  margin: 0;
+  background-image: url("../pages/signupbg.jpg");
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+  padding: 0;
+  display: flex;
+  padding-left: 10%;
+  align-items: center;
+}
+.signup-box{
+    border: 3px solid black;
+    padding: 5%;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-style: italic;
+    color: chocolate;
+    font-variant: small-caps;
+    border-radius: 24px;
+}
+input{
+    width: 20vw;
+    height: 4vh;
+}
+.signup{
+    color: brown;
+    font-style: normal;
+}
+p{
+    font-size: 1rem;
+}
+.signup-btn{
+    width: 5rem;
+    height: 2rem;
+    border-radius: 24px;
+    background-color: goldenrod;
+    font-weight: 600;
+}
+

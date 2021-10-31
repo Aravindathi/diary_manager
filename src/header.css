@@ -1,0 +1,37 @@
+.header {
+  padding-right: 3vw;
+  width: 100vw;
+  height: 15vh;
+  box-sizing: border-box;
+  background: rgb(192, 244, 95);
+  background: radial-gradient(
+    circle,
+    rgba(192, 244, 95, 1) 1%,
+    rgba(238, 249, 152, 1) 49%,
+    rgba(235, 198, 104, 1) 96%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Merriweather", serif;
+  font-size: 1.5rem;
+}
+
+.title {
+ position: absolute;
+  background: #121fcf;
+  background: -webkit-linear-gradient(to right, #121fcf 0%, #cf1512 100%);
+  background: -moz-linear-gradient(to right, #121fcf 0%, #cf1512 100%);
+  background: linear-gradient(to right, #121fcf 0%, #cf1512 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.logout-btn{
+  width: 3vw;
+  height: 6vh;
+}
+.btn-holder{
+  margin-left: auto;
+}
