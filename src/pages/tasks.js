@@ -11,7 +11,7 @@ const Tasks = ({month,date}) => {
   
   const [showModal, setShowModal] = useState(false);
   // useEffect(() => {
-  fetch(`http://localhost:3001/schedule/${month}/${date}/${userId}`)
+  fetch(`https://diarymanager.herokuapp.com/schedule/${month}/${date}/${userId}`)
       .then((response) => response.json())
       .then((res) => datamap(res))
       .catch((error) => {

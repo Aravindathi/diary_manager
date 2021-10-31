@@ -19,7 +19,7 @@ const AddTaskModal = ({ setShowModal, month,date}) => {
         taskTime: e.target[1].value,
       }),
     };
-    fetch("http://localhost:3001/schedule/addtask", requestOptions)
+    fetch("https://diarymanager.herokuapp.com/schedule/addtask", requestOptions)
       .then((response) => response.json())
       .then((res) => console.log(res));
     //  code ends here
