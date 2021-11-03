@@ -20,7 +20,7 @@ const Login = () => {
         userPassword: e.target[1].value,
       }),
     };
-    fetch("http://localhost:3001/login", requestOptions)
+    fetch("https://diarymanager.herokuapp.com/login", requestOptions)
       .then((response) => response.json())
       .then((data) => checkToken(data))
       
